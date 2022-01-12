@@ -1,0 +1,132 @@
+.contact {
+  padding: 20px;
+}
+
+.contact__title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.contact__title,
+.contact__left {
+  padding: 20px;
+}
+
+.contact__span {
+  margin-left: 10px;
+  height: 4px;
+  width: 50px;
+  border-radius: 50px;
+  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+  filter: blur(1px);
+}
+
+.contact__main {
+  display: flex;
+}
+
+.contact__left {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+.contact__info,
+.contact__right,
+.contact__button {
+  margin: 15px 0;
+  padding: 20px;
+}
+
+.contact__info {
+  border: 1px solid var(--lightGray-color);
+  outline-width: 0;
+  border-radius: 30px;
+}
+
+.contact__left > textarea {
+  font-family: sans-serif;
+}
+
+.contact__button {
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  color: var(--white-color);
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.contact__button:hover {
+  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+}
+
+.contact__right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__rightIcons {
+  margin: 10px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact__rightIcons > .MuiSvgIcon-root {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.contact__rightIcons > .MuiSvgIcon-root:hover {
+  color: var(--white-color);
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+}
+
+.contact__text {
+  margin-left: 10px;
+}
+
+.contact__text > h3,
+.contact__text > p {
+  padding: 2px 0;
+}
+
+.contact__text > h3 > a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.contact__text > p {
+  color: var(--gray-color);
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact__main {
+    flex-direction: column;
+  }
+
+  .contact__title {
+    padding-top: 70px !important;
+  }
+
+  .contact__left {
+    width: unset;
+  }
+
+  .contact__right {
+    padding: 0;
+  }
+
+  .contact__text {
+    margin-left: unset;
+    text-align: center;
+  }
+
+  .contact__rightIcons {
+    flex-direction: column;
+  }
+}

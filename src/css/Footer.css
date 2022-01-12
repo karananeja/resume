@@ -1,0 +1,64 @@
+.footer {
+  height: 20vh;
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  padding-top: 25px;
+  color: var(--white-color);
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__info > a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.footer__name {
+  padding: 10px 15px;
+  font-size: 2em;
+}
+
+.footer__name:hover {
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  border-radius: 999px;
+}
+
+.footer__icons > a {
+  color: var(--black-color);
+}
+
+.footer__icons > a > .MuiSvgIcon-root {
+  padding: 15px;
+  margin: 10px;
+  background-color: var(--white-color);
+  border-radius: 30px;
+}
+
+.footer__icons > a > .MuiSvgIcon-root:hover {
+  color: var(--white-color);
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+}
+
+.footer__info > p > a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    height: 25vh;
+  }
+
+  .footer__info > p {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .footer__icons > a > .MuiSvgIcon-root {
+    padding: 5px;
+  }
+}

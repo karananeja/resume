@@ -1,0 +1,94 @@
+.about {
+  padding: 20px;
+  padding-top: 150px;
+}
+
+.about__aboutLine {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.about__span {
+  margin-left: 10px;
+  height: 4px;
+  width: 50px;
+  border-radius: 50px;
+  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+  filter: blur(1px);
+}
+
+.about__aboutLine,
+.about__jobTitle,
+.about__jobLocation,
+.about__jobInfo,
+.about__jobDuration,
+.about__button {
+  padding: 20px;
+}
+
+.about__jobLocation,
+.about__jobInfo,
+.about__jobDuration {
+  padding-top: 0;
+}
+
+.about__jobDurationExists {
+  display: block !important;
+}
+
+.about__jobDuration {
+  display: none;
+  color: var(--gray-color);
+}
+
+.about__jobInfo {
+  list-style: none;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.about__button {
+  cursor: pointer;
+  margin: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+}
+
+.about__button {
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.about__resume {
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+}
+
+.about__button:hover {
+  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+}
+
+.about__icons {
+  padding: 20px;
+}
+
+.about__icon {
+  padding: 8px;
+  margin: 8px;
+  font-size: large;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  border-radius: 30px;
+}
+
+.about__icon:hover {
+  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+}
+
+@media only screen and (max-width: 1000px) {
+  .about__resume > worker > viewer {
+    width: fit-content;
+  }
+}

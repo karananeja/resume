@@ -1,0 +1,82 @@
+.home {
+  display: flex;
+  padding: 20px;
+}
+
+.home__left {
+  flex: 1;
+}
+
+.home__intro {
+  margin-top: 150px;
+  font-weight: 500;
+}
+
+.home__intro,
+.home__title,
+.home__jobIntro,
+.home__icons,
+.home__button {
+  padding: 20px;
+}
+
+.home__jobIntro {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.home__icons {
+  display: flex;
+  align-items: center;
+}
+
+.home__icons > a {
+  text-decoration: none;
+  color: var(--black-color);
+  padding: 8px;
+}
+
+.home__icons > a:hover {
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  border-radius: 30px;
+  color: var(--white-color);
+}
+
+.home__button {
+  cursor: pointer;
+  margin: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+}
+
+.home__button:hover {
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+}
+
+.home__button > a {
+  color: var(--white-color);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.home__image {
+  height: 800px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1000px) {
+  .home__intro {
+    margin-top: 0;
+  }
+
+  .home__image {
+    display: none;
+  }
+
+  .home__button {
+    display: flex;
+    justify-content: center;
+  }
+}

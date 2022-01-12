@@ -1,0 +1,15 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --red-color: #ff0000;
+  --blue-color: #0000ff;
+  --gray-color: #808080;
+  --lightGray-color: #e6e6e6;
+}
+
+.app {
+  /* max-width: 1300px;
+  margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+}
