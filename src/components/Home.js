@@ -25,7 +25,7 @@ const Home = () => {
             <FacebookOutlined />
           </a>
           <a
-            href='https://twitter.com/KaranKumarAneja'
+            href='https://twitter.com/KaranAneja07'
             target='_blank'
             rel='noreferrer'
           >
@@ -39,7 +39,7 @@ const Home = () => {
             <GitHub />
           </a>
           <a
-            href='https://www.linkedin.com/in/karan-kumar-aneja-r-24143315a/'
+            href='https://linkedin.com/in/aneja07'
             target='_blank'
             rel='noreferrer'
           >
