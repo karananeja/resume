@@ -14,7 +14,6 @@ const About = () => {
   const [showComponent, setShowComponent] = useState(false);
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
-  console.log(showComponent);
   return (
     <div id='about' className='about'>
       <p className='about__aboutLine'>

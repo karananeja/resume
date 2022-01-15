@@ -44,14 +44,14 @@ const Header = () => {
               <a href='#about'>About</a>
             </li>
             <li>
-              {/* Temp link, will change once portfolio component is built 
-              <a href='#portfolio'>Portfolio</a> */}
-              <a
+              {/* Temp link, will change once portfolio component is built */}
+              <a href='#portfolio'>Portfolio</a>
+              {/* <a
                 href='https://github.com/karananeja?tab=repositories'
                 target='_blank'
               >
                 Portfolio
-              </a>
+              </a> */}
             </li>
             <li>
               <a href='#contact'>Contact</a>

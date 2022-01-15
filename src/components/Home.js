@@ -47,14 +47,14 @@ const Home = () => {
           </a>
         </div>
         <button className='home__button'>
-          {/* Temp link, will change once portfolio component is built 
-          <a href='#portfolio'>See My Work</a> */}
-          <a
+          {/* Temp link, will change once portfolio component is built */}
+          <a href='#portfolio'>See My Work</a>
+          {/* <a
             href='https://github.com/karananeja?tab=repositories'
             target='_blank'
           >
             See My Work
-          </a>
+          </a> */}
         </button>
       </div>
       <div className='home__right'>
