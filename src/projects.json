@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "title": "Airbnb Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/airbnb.png?raw=true",
+    "appLink": "https://airbnb-clone-161d0.web.app/",
+    "codeLink": "https://github.com/karananeja/airbnb-clone"
+  },
+  {
+    "id": 2,
+    "title": "Amazon Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/amazon.png?raw=true",
+    "appLink": "https://clone-a2e7b.web.app/",
+    "codeLink": "https://github.com/karananeja/amazon-clone"
+  },
+  {
+    "id": 3,
+    "title": "Covid Tracker Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/covid-tracker.png?raw=true",
+    "appLink": "https://covid-tracker-clone.netlify.app",
+    "codeLink": "https://github.com/karananeja/covid-tracker-clone"
+  },
+  {
+    "id": 4,
+    "title": "Discord Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/discord.png?raw=true",
+    "appLink": "https://rt-discord-clone.web.app/",
+    "codeLink": "https://github.com/karananeja/discord-clone"
+  },
+  {
+    "id": 5,
+    "title": "Facebook Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/facebook.png?raw=true",
+    "appLink": "https://r-facebook-clone.netlify.app",
+    "codeLink": "https://github.com/karananeja/facebook-clone"
+  },
+  {
+    "id": 6,
+    "title": "Google Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/google.png?raw=true",
+    "appLink": "https://clone-5c6b3.web.app/",
+    "codeLink": "https://github.com/karananeja/google-clone"
+  },
+  {
+    "id": 7,
+    "title": "Instagram Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/instagram.png?raw=true",
+    "appLink": "",
+    "codeLink": "https://github.com/karananeja/instagram-clone"
+  },
+  {
+    "id": 8,
+    "title": "Messenger Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/messenger.png?raw=true",
+    "appLink": "https://rt-messenger-clone.web.app/",
+    "codeLink": "https://github.com/karananeja/messenger-clone"
+  },
+  {
+    "id": 9,
+    "title": "Netflix Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/netflix.png?raw=true",
+    "appLink": "https://r-netflix-clone.netlify.app",
+    "codeLink": "https://github.com/karananeja/netflix-clone"
+  },
+  {
+    "id": 10,
+    "title": "Slack Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/slack.png?raw=true",
+    "appLink": "https://rt-slack-clone.web.app/",
+    "codeLink": "https://github.com/karananeja/slack-clone"
+  },
+  {
+    "id": 11,
+    "title": "Spotify Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/spotify.png?raw=true",
+    "appLink": "https://r-spotify-clone.netlify.app",
+    "codeLink": "https://github.com/karananeja/spotify-clone"
+  },
+  {
+    "id": 12,
+    "title": "Tik Tok Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/tik-tok.png?raw=true",
+    "appLink": "https://tiktok-clone-17e41.web.app/",
+    "codeLink": "https://github.com/karananeja/tiktok-clone"
+  },
+  {
+    "id": 13,
+    "title": "Tinder Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/tinder.png?raw=true",
+    "appLink": "https://rt-tinder-clone.web.app/",
+    "codeLink": "https://github.com/karananeja/tinder-clone"
+  },
+  {
+    "id": 14,
+    "title": "To Do App",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/to-do.png?raw=true",
+    "appLink": "https://todo-app-545b3.web.app/",
+    "codeLink": "https://github.com/karananeja/todo-app"
+  },
+  {
+    "id": 15,
+    "title": "Twitter Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/twitter.png?raw=true",
+    "appLink": "https://rt-twitter-clone.web.app/",
+    "codeLink": "https://github.com/karananeja/twitter-clone"
+  },
+  {
+    "id": 16,
+    "title": "WhatsaApp Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/whatsapp.png?raw=true",
+    "appLink": "https://whatsapp-clone-31f81.web.app/",
+    "codeLink": "https://github.com/karananeja/whatsapp-clone-fr"
+  },
+  {
+    "id": 17,
+    "title": "YouTube Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/youtube.png?raw=true",
+    "appLink": "https://clone-43010.web.app/",
+    "codeLink": "https://github.com/karananeja/youtube-clone"
+  }
+]
