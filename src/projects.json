@@ -117,5 +117,19 @@
     "image": "https://github.com/karananeja/resume/blob/master/src/images/youtube.png?raw=true",
     "appLink": "https://clone-43010.web.app/",
     "codeLink": "https://github.com/karananeja/youtube-clone"
+  },
+  {
+    "id": 18,
+    "title": "Zoom Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/youtube.png?raw=true",
+    "appLink": "https://n-zoom-clone.herokuapp.com/",
+    "codeLink": "https://github.com/karananeja/zoom-clone"
+  },
+  {
+    "id": 19,
+    "title": "Copperants",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/youtube.png?raw=true",
+    "appLink": "https://karananeja.github.io/copperants-assignment-2/",
+    "codeLink": "https://github.com/karananeja/copperants-assignment-2"
   }
 ]
