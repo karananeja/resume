@@ -26,6 +26,31 @@
 
 .header__name {
   padding: 10px 15px;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.header__name::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  z-index: -1;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+
+.header__name:hover::before {
+  transform: translateX(0);
+}
+
+.header__name:hover {
+  color: var(--white-color);
 }
 
 .header__nav > ul {
@@ -42,13 +67,13 @@
   color: var(--black-color);
   text-decoration: none;
   padding: 15px;
+  border-radius: 30px;
 }
 
-.header__name:hover,
 .header__nav > ul > li > a:hover {
-  color: var(--white-color);
   background: linear-gradient(45deg, var(--red-color), var(--blue-color));
-  border-radius: 30px;
+  color: var(--white-color);
+  transition: all 1s;
 }
 
 @media only screen and (max-width: 1000px) {

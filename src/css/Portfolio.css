@@ -39,7 +39,7 @@
   padding: 20px;
   object-fit: contain;
   transition: all 0.2s ease-in;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .portfolio__img:hover {
@@ -48,7 +48,6 @@
 
 .portfolio__links {
   display: flex;
-  /* justify-content: space-evenly; */
 }
 
 .portfolio__links > a {
@@ -57,11 +56,30 @@
   text-decoration: none;
   padding: 10px 20px;
   color: var(--black-color);
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.portfolio__links > a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  z-index: -1;
+  transition: all 1s;
+  transform: translateX(-101%);
+}
+
+.portfolio__links > a:hover::before {
+  transform: translateX(0);
 }
 
 .portfolio__links > a:hover {
-  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
-  border-radius: 50px;
   color: var(--white-color);
 }
 

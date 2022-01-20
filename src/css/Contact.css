@@ -54,14 +54,34 @@
   font-weight: 600;
   border: none;
   border-radius: 30px;
-  color: var(--white-color);
-  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  color: var(--black-color);
   text-transform: uppercase;
   width: fit-content;
+  position: relative;
+  background: transparent;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.contact__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  z-index: -1;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+
+.contact__button:hover::before {
+  transform: translateX(0);
 }
 
 .contact__button:hover {
-  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+  color: var(--white-color);
 }
 
 .contact__right {

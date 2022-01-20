@@ -55,19 +55,37 @@
   border: none;
   border-radius: 30px;
   background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  text-transform: uppercase;
+  color: var(--black-color);
+  position: relative;
+  background: transparent;
+  transition: all 1s;
+  overflow: hidden;
 }
 
-.about__button {
-  text-transform: uppercase;
+.about__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  z-index: -1;
+  transition: all 1s;
+  transform: translateX(-101%);
+}
+
+.about__button:hover::before {
+  transform: translateX(0);
+}
+
+.about__button:hover {
   color: var(--white-color);
 }
 
 .about__resume {
   background: linear-gradient(45deg, var(--red-color), var(--blue-color));
-}
-
-.about__button:hover {
-  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
 }
 
 .about__icons {

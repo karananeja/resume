@@ -33,30 +33,51 @@
 .home__icons > a {
   text-decoration: none;
   color: var(--black-color);
+  border-radius: 30px;
   padding: 8px;
 }
 
 .home__icons > a:hover {
   background: linear-gradient(45deg, var(--red-color), var(--blue-color));
-  border-radius: 30px;
   color: var(--white-color);
+  transition: all 1s;
 }
 
 .home__button {
   cursor: pointer;
   margin: 20px;
   font-weight: 600;
+  position: relative;
   border: none;
   border-radius: 30px;
-  background: linear-gradient(45deg, var(--blue-color), var(--red-color));
+  background: transparent;
+  transition: all 1s;
+  overflow: hidden;
 }
 
-.home__button:hover {
+.home__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  z-index: -1;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+
+.home__button:hover::before {
+  transform: translateX(0);
+}
+
+.home__button:hover > a {
+  color: var(--white-color);
 }
 
 .home__button > a {
-  color: var(--white-color);
+  color: var(--black-color);
   text-transform: uppercase;
   text-decoration: none;
 }

@@ -20,11 +20,13 @@
 .footer__name {
   padding: 10px 15px;
   font-size: 2em;
+  border-radius: 30px;
 }
 
 .footer__name:hover {
-  background: linear-gradient(45deg, var(--red-color), var(--blue-color));
-  border-radius: 999px;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  transition: all 1s;
 }
 
 .footer__icons > a {
@@ -41,6 +43,7 @@
 .footer__icons > a > .MuiSvgIcon-root:hover {
   color: var(--white-color);
   background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  transition: all 1s;
 }
 
 .footer__info > p > a {
