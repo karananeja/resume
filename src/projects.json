@@ -45,7 +45,7 @@
     "id": 7,
     "title": "Instagram Clone",
     "image": "https://github.com/karananeja/resume/blob/master/src/images/instagram.png?raw=true",
-    "appLink": "",
+    "appLink": "https://r-instagram-clone.netlify.app/",
     "codeLink": "https://github.com/karananeja/instagram-clone"
   },
   {
@@ -128,6 +128,13 @@
   {
     "id": 19,
     "title": "Copperants",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/copperants.png?raw=true",
+    "appLink": "https://karananeja.github.io/copperants-assignment-2/",
+    "codeLink": "https://github.com/karananeja/copperants-assignment-2"
+  },
+  {
+    "id": 20,
+    "title": "Hulu Clone",
     "image": "https://github.com/karananeja/resume/blob/master/src/images/copperants.png?raw=true",
     "appLink": "https://karananeja.github.io/copperants-assignment-2/",
     "codeLink": "https://github.com/karananeja/copperants-assignment-2"
