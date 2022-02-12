@@ -55,10 +55,10 @@ const About = () => {
         className='about__button'
         onClick={() => setShowComponent(!showComponent)}
       >
-        Download Resume
+        {!showComponent ? 'Show Resume' : 'Hide Resume'}
       </button>
       {showComponent ? (
-        <div className='.about__resume'>
+        <div className='about__resume'>
           <Worker workerUrl='https://unpkg.com/pdfjs-dist@2.11.338/build/pdf.worker.min.js'>
             <Viewer fileUrl={pdfFile} plugins={[defaultLayoutPluginInstance]} />
           </Worker>
