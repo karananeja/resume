@@ -13,9 +13,7 @@ const Home = () => {
       <div className='home__left'>
         <p className='home__intro'>Hey There !</p>
         <h1 className='home__title'>I am Karan Kumar Aneja R</h1>
-        <h3 className='home__jobIntro'>
-          investigations specialist | full stack web developer
-        </h3>
+        <h3 className='home__jobIntro'>front-end developer</h3>
         <div className='home__icons'>
           <a
             href='https://www.facebook.com/karananeja.07/'

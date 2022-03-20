@@ -49,8 +49,18 @@ const Footer = () => {
           {new Date().getFullYear()}.
         </p>
         <p>
-          Icons courtesy of <a href='https://mui.com/'>Material icons</a> &{' '}
-          <a href='https://react-icons.github.io/react-icons/'>React Icons</a>
+          Icons courtesy of{' '}
+          <a href='https://mui.com/' target='_blank' rel='noreferrer'>
+            Material icons
+          </a>{' '}
+          &{' '}
+          <a
+            href='https://react-icons.github.io/react-icons/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            React Icons
+          </a>
         </p>
       </div>
     </footer>

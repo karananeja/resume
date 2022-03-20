@@ -86,7 +86,7 @@ const Contact = () => {
               <h3>
                 <a href='tel:9980672016'>+91-9980672016</a>
               </h3>
-              <p>Mon to Fri, 3pm - 7pm | Sat - Sun</p>
+              <p>Sat - Sun</p>
             </div>
           </div>
           <div className='contact__rightIcons'>
