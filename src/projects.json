@@ -92,19 +92,18 @@
   },
   {
     "id": 14,
-    "title": "Spotify Clone",
-    "image": "https://github.com/karananeja/resume/blob/master/src/images/spotify.png?raw=true",
-    "appLink": "https://r-spotify-clone.netlify.app",
-    "codeLink": "https://github.com/karananeja/spotify-clone"
-  },
-  {
-    "id": 15,
     "title": "Sony Liv Clone",
     "image": "https://github.com/karananeja/resume/blob/master/src/images/sony-liv.png?raw=true",
     "appLink": "https://rt-sony-liv-clone.web.app",
     "codeLink": "https://github.com/karananeja/sony-liv-clone"
   },
-
+  {
+    "id": 15,
+    "title": "Spotify Clone",
+    "image": "https://github.com/karananeja/resume/blob/master/src/images/spotify.png?raw=true",
+    "appLink": "https://r-spotify-clone.netlify.app",
+    "codeLink": "https://github.com/karananeja/spotify-clone"
+  },
   {
     "id": 16,
     "title": "Tik Tok Clone",
