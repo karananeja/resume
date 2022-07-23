@@ -20,36 +20,24 @@ const About = () => {
         About Me <span className='about__span'></span>
       </p>
       <div className='about__job'>
-        {work.map(
-          (
-            {
-              title,
-              location,
-              duration,
-              description_1,
-              description_2,
-              description_3,
-            },
-            index
-          ) => (
-            <div key={index}>
-              <h1 className='about__jobTitle'>{title}</h1>
-              <h3 className='about__jobLocation'>{location}</h3>
-              <h5
-                className={`about__jobDuration ${
-                  duration && 'about__jobDurationExists'
-                }`}
-              >
-                {duration}
-              </h5>
-              <ul className='about__jobInfo'>
-                <li>{description_1}</li>
-                <li>{description_2}</li>
-                <li>{description_3}</li>
-              </ul>
-            </div>
-          )
-        )}
+        {work.map(({ title, location, duration, description }, index) => (
+          <div key={index}>
+            <h1 className='about__jobTitle'>{title}</h1>
+            <h3 className='about__jobLocation'>{location}</h3>
+            <h5
+              className={`about__jobDuration ${
+                duration && 'about__jobDurationExists'
+              }`}
+            >
+              {duration}
+            </h5>
+            <ul className='about__jobInfo'>
+              {description.map((des, index) => (
+                <li key={index}>{des}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
       <button
         className='about__button'
