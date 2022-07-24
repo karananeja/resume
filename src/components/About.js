@@ -1,7 +1,17 @@
 import React, { useState } from 'react';
 import work from '../work';
 import '../css/About.css';
-import { FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
+import {
+  FaBitbucket,
+  FaCss3,
+  FaGithub,
+  FaGitSquare,
+  FaHtml5,
+  FaJs,
+  FaNodeJs,
+  FaReact,
+  FaSourcetree,
+} from 'react-icons/fa';
 import { SiExpress, SiFirebase, SiMongodb } from 'react-icons/si';
 import { Viewer } from '@react-pdf-viewer/core';
 import { Worker } from '@react-pdf-viewer/core';
@@ -57,13 +67,29 @@ const About = () => {
       </p>
       <div className='about__icons'>
         <FaHtml5 className='about__icon' />
+        <span className='about__iconInfo'>HTML5</span>
         <FaCss3 className='about__icon' />
+        <span className='about__iconInfo'>CSS3</span>
         <FaJs className='about__icon' />
+        <span className='about__iconInfo'>JavaScript</span>
         <FaReact className='about__icon' />
+        <span className='about__iconInfo'>React</span>
         <SiFirebase className='about__icon' />
+        <span className='about__iconInfo'>Firebase</span>
         <FaNodeJs className='about__icon' />
+        <span className='about__iconInfo'>NodeJs</span>
         <SiExpress className='about__icon' />
+        <span className='about__iconInfo'>Express</span>
         <SiMongodb className='about__icon' />
+        <span className='about__iconInfo'>Mongodb</span>
+        <FaGitSquare className='about__icon' />
+        <span className='about__iconInfo'>Git</span>
+        <FaGithub className='about__icon' />
+        <span className='about__iconInfo'>GitHub</span>
+        <FaSourcetree className='about__icon' />
+        <span className='about__iconInfo'>Sourcetree</span>
+        <FaBitbucket className='about__icon' />
+        <span className='about__iconInfo'>Bitbucket</span>
       </div>
     </div>
   );
