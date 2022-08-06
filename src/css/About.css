@@ -43,9 +43,10 @@
 }
 
 .about__jobInfo {
-  list-style: none;
   text-align: justify;
   padding-left: 20px;
+  margin-left: 20px;
+
 }
 
 .about__button {
@@ -109,6 +110,7 @@
 
 .about__icons > .about__iconInfo {
   visibility: hidden;
+  width: -moz-fit-content;
   width: fit-content;
   background: linear-gradient(45deg, var(--blue-color), var(--red-color));
   color: #fff;
@@ -127,6 +129,7 @@
 
 @media only screen and (max-width: 1000px) {
   .about__resume > worker > viewer {
+    width: -moz-fit-content;
     width: fit-content;
   }
 }
