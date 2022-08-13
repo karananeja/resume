@@ -46,7 +46,6 @@
   text-align: justify;
   padding-left: 20px;
   margin-left: 20px;
-
 }
 
 .about__button {
@@ -117,9 +116,11 @@
   text-align: center;
   border-radius: 6px;
   padding: 5px 10px;
+  margin: 10px;
 
   /* Position the tooltip */
   position: absolute;
+  top: 63px;
   z-index: 1;
 }
 
@@ -131,5 +132,9 @@
   .about__resume > worker > viewer {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .about__icons > .about__iconInfo {
+    top: 120px;
   }
 }
