@@ -76,8 +76,8 @@ const Contact = () => {
           <div className='contact__rightIcons'>
             <Home />
             <div className='contact__text'>
-              <h3>K Narayanapura, Bengaluru</h3>
-              <p>Karnataka, India - 560077</p>
+              <h3>Ellis Road, Chennai</h3>
+              <p>TamilNadu, India - 600002</p>
             </div>
           </div>
           <div className='contact__rightIcons'>
