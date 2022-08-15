@@ -77,7 +77,7 @@ const Contact = () => {
             <Home />
             <div className='contact__text'>
               <h3>Ellis Road, Chennai</h3>
-              <p>TamilNadu, India - 600002</p>
+              <p>Tamil Nadu, India - 600002</p>
             </div>
           </div>
           <div className='contact__rightIcons'>
