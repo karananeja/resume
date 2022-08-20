@@ -1,11 +1,13 @@
 import {
   FacebookOutlined,
+  KeyboardDoubleArrowDown,
   GitHub,
   LinkedIn,
   Twitter,
 } from '@mui/icons-material';
 import React from 'react';
 import '../css/Home.css';
+import work from '../work';
 
 const Home = () => {
   return (
@@ -13,7 +15,14 @@ const Home = () => {
       <div className='home__left'>
         <p className='home__intro'>Hey There !</p>
         <h1 className='home__title'>I am Karan Kumar Aneja R</h1>
-        <h3 className='home__jobIntro'>front-end developer</h3>
+        <h3 className='home__jobIntro'>
+          Working
+          <span className='home__helpWord'> as </span>
+          {work[0]?.title}{' '}
+          <a href='#about' className='home__link'>
+            at <KeyboardDoubleArrowDown />
+          </a>
+        </h3>
         <div className='home__icons'>
           <a
             href='https://www.facebook.com/karananeja.07/'
