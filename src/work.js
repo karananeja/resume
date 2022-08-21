@@ -4,6 +4,7 @@ export default [
     location: 'Spin Games LLC, Chennai, TN IN',
     duration: 'Feb 2022 - Present',
     description: [
+      'Working as Front-End Engineer',
       'Developed Games using Phaser.js JavaScript Framework',
       'Developed Slot Games which are played in Casino',
     ],
