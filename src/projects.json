@@ -152,5 +152,12 @@
     "image": "https://github.com/karananeja/resume/blob/main/src/images/zoom.png?raw=true",
     "appLink": "https://n-zoom-clone.herokuapp.com/",
     "codeLink": "https://github.com/karananeja/zoom-clone"
+  },
+  {
+    "id": 23,
+    "title": "Exercise Tracker",
+    "image": "https://github.com/karananeja/resume/blob/main/src/images/exercise-tracker.png?raw=true",
+    "appLink": "https://rt-exercise-tracker.web.app//",
+    "codeLink": "https://github.com/karananeja/exercise-tracker"
   }
 ]
