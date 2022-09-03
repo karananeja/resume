@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Software Engineer',
+    title: 'Game Developer',
     location: 'Spin Games LLC, Chennai, TN IN',
     duration: 'Feb 2022 - Present',
     description: [
