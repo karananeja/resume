@@ -3,12 +3,10 @@ export default [
     title: 'Game Developer',
     location: 'Bragg Gaming, Chennai, TN IN',
     duration: 'Sep 2022 - Present',
-    location: 'Spin Games LLC, Chennai, TN, IN',
-    duration: 'Feb 2022 - Present',
     description: [
       'Working as Front-End Engineer',
       'Developed Slot Games using Phaser.js (JavaScript Framework) which are played in Casino for US and EU Marketplaces',
-      'Integrated the Back – End to the Front – End'
+      'Integrated the Back – End to the Front – End',
     ],
   },
   {
@@ -18,7 +16,7 @@ export default [
     description: [
       'Working as Front-End Engineer',
       'Developed Slot Games using Phaser.js (JavaScript Framework) which are played in Casino for US and EU Marketplaces',
-      'Integrated the Back – End to the Front – End'
+      'Integrated the Back – End to the Front – End',
     ],
   },
   {
