@@ -2,7 +2,7 @@ export default [
   {
     title: 'Game Developer',
     location: 'Bragg Gaming, Chennai, TN IN',
-    duration: 'Sep 2022 - Present',
+    duration: 'Sep 2022 - Jan 2023',
     description: [
       'Working as Front-End Engineer',
       'Developed Slot Games using Phaser.js (JavaScript Framework) which are played in Casino for US and EU Marketplaces',
