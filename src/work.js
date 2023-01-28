@@ -1,5 +1,15 @@
 export default [
   {
+    title: 'Frontend Web Developer',
+    location: 'Intellicar Telematics, Bengaluru, KA IN',
+    duration: 'Jan 2023 - Present',
+    description: [
+      'Working as Front-End Web Developer',
+      'Developed npm package',
+      'Integrated the Back - End to the Front - End',
+    ],
+  },
+  {
     title: 'Game Developer',
     location: 'Bragg Gaming, Chennai, TN IN',
     duration: 'Sep 2022 - Jan 2023',
