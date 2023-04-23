@@ -10,9 +10,18 @@ import {
   FaJs,
   FaNodeJs,
   FaReact,
+  FaSass,
   FaSourcetree,
 } from 'react-icons/fa';
-import { SiExpress, SiFirebase, SiMongodb } from 'react-icons/si';
+import {
+  SiApacheecharts,
+  SiAxios,
+  SiExpress,
+  SiFirebase,
+  SiMongodb,
+  SiReactquery,
+  SiVite,
+} from 'react-icons/si';
 import { Viewer } from '@react-pdf-viewer/core';
 import { Worker } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
@@ -70,6 +79,8 @@ const About = () => {
         <span className='about__iconInfo'>HTML5</span>
         <FaCss3 className='about__icon' />
         <span className='about__iconInfo'>CSS3</span>
+        <FaSass className='about__icon' />
+        <span className='about__iconInfo'>SASS</span>
         <FaJs className='about__icon' />
         <span className='about__iconInfo'>JavaScript</span>
         <FaReact className='about__icon' />
@@ -90,6 +101,14 @@ const About = () => {
         <span className='about__iconInfo'>Sourcetree</span>
         <FaBitbucket className='about__icon' />
         <span className='about__iconInfo'>Bitbucket</span>
+        <SiReactquery className='about__icon' />
+        <span className='about__iconInfo'>React Query</span>
+        <SiVite className='about__icon' />
+        <span className='about__iconInfo'>Vite</span>
+        <SiAxios className='about__icon' />
+        <span className='about__iconInfo'>Axios</span>
+        <SiApacheecharts className='about__icon' />
+        <span className='about__iconInfo'>Echarts</span>
       </div>
     </div>
   );
