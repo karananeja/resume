@@ -1,5 +1,6 @@
-.about {
-  padding: 20px;
+.about,
+.about__aboutLine {
+  padding: 10px 20px;
 }
 
 .about__aboutLine {
@@ -17,7 +18,6 @@
   filter: blur(1px);
 }
 
-.about__aboutLine,
 .about__jobTitle,
 .about__jobLocation,
 .about__jobInfo,

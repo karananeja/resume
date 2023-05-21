@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .portfolio__title,
@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   font-weight: 600;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .portfolio__span {
