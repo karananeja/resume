@@ -129,10 +129,6 @@
     flex-direction: column;
   }
 
-  .contact__title {
-    padding-top: 70px !important;
-  }
-
   .contact__left {
     width: unset;
   }
