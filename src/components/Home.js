@@ -68,7 +68,7 @@ const Home = () => {
         <img
           className='home__image'
           src='https://r-trail-1.netlify.app/static/media/photo-nbg.0113342f.png'
-          alt='user image'
+          alt='user_image'
         />
       </div>
     </div>
