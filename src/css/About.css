@@ -85,6 +85,8 @@
 
 .about__resume {
   background: linear-gradient(45deg, var(--red-color), var(--blue-color));
+  width: 100vw;
+  height: 100vh;
 }
 
 .about__icons {
