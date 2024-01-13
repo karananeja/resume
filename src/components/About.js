@@ -23,21 +23,15 @@ import {
   SiTypescript,
   SiVite,
 } from 'react-icons/si';
-import { Viewer } from '@react-pdf-viewer/core';
-import { Worker } from '@react-pdf-viewer/core';
-import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-import '@react-pdf-viewer/core/lib/styles/index.css';
-import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import pdfFile from '../Resume.pdf';
 
 const About = () => {
   const [showComponent, setShowComponent] = useState(false);
-  const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   return (
     <div id='about' className='about'>
       <p className='about__aboutLine'>
-        About Me <span className='about__span'></span>
+        About Me <span className='about__span' />
       </p>
       <div className='about__job'>
         {work.map(({ title, location, duration, description }, index) => (
@@ -67,13 +61,21 @@ const About = () => {
       </button>
       {showComponent ? (
         <div className='about__resume'>
-          <Worker workerUrl='https://unpkg.com/pdfjs-dist@2.11.338/build/pdf.worker.min.js'>
-            <Viewer fileUrl={pdfFile} plugins={[defaultLayoutPluginInstance]} />
-          </Worker>
+          <object
+            data={pdfFile}
+            type='application/pdf'
+            width='100%'
+            height='100%'
+          >
+            <p>
+              Alternative text - include a link{' '}
+              <a href={pdfFile}>to the PDF!</a>
+            </p>
+          </object>
         </div>
       ) : null}
       <p className='about__aboutLine'>
-        My Skills <span className='about__span'></span>
+        My Skills <span className='about__span' />
       </p>
       <div className='about__icons'>
         <FaHtml5 className='about__icon' />

@@ -12,16 +12,17 @@ const Contact = () => {
 
   const sendMessage = (e) => {
     e.preventDefault();
+
     if (name && message && email && subject) {
       db.collection('queries')
         .add({
-          name: name,
-          email: email,
-          message: message,
-          subject: subject,
+          name,
+          email,
+          message,
+          subject,
           timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         })
-        .then(() => alert('Your query is succesfully delivered'));
+        .then(() => alert('Your query is successfully delivered'));
     }
     setName('');
     setEmail('');
@@ -32,7 +33,7 @@ const Contact = () => {
   return (
     <div id='contact' className='contact'>
       <p className='contact__title'>
-        Contact Me <span className='contact__span'></span>
+        Contact Me <span className='contact__span' />
       </p>
       <div className='contact__main'>
         <form className='contact__left'>
