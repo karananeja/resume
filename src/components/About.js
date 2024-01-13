@@ -20,6 +20,7 @@ import {
   SiFirebase,
   SiMongodb,
   SiReactquery,
+  SiTypescript,
   SiVite,
 } from 'react-icons/si';
 import { Viewer } from '@react-pdf-viewer/core';
@@ -83,6 +84,8 @@ const About = () => {
         <span className='about__iconInfo'>SASS</span>
         <FaJs className='about__icon' />
         <span className='about__iconInfo'>JavaScript</span>
+        <SiTypescript className='about__icon' />
+        <span className='about__iconInfo'>TypeScript</span>
         <FaReact className='about__icon' />
         <span className='about__iconInfo'>React</span>
         <SiFirebase className='about__icon' />
