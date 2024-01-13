@@ -4,11 +4,10 @@ const work = [
     location: 'Intellicar Telematics, Bengaluru, KA IN',
     duration: 'Jan 2023 - Present',
     description: [
-      'Working as Front-End Web Developer',
-      'Developed Inventory Management System',
-      'Developed Energy Management System',
-      'Developed NPM Package for Login Provider',
-      'Integrated the Back - End to the Front - End',
+      'Currently serving as a Front-End Developer, actively contributing to the development of applications using React and TypeScript',
+      'Collaborating seamlessly with cross-functional team members and stakeholders to ensure cohesive project execution',
+      'Proficiently utilizing Git and GitHub for effective version control and streamlined codebase management',
+      'Employing Axios for seamless integration, bridging the gap between the Back-End and Front-End components',
     ],
   },
   {
@@ -16,9 +15,13 @@ const work = [
     location: 'Spin Games LLC, Chennai, TN IN',
     duration: 'Feb 2022 - Jan 2023',
     description: [
-      'Worked as Front-End Engineer',
-      'Developed Slot Games using Phaser.js (JavaScript Framework) which are played in Casino for US and EU Marketplaces',
-      'Integrated the Back - End to the Front - End',
+      'As a Front-End Developer, I specialized in crafting captivating Slot Games using Phaser.js (JavaScript Framework), tailored for the US and EU Casino Marketplaces',
+      'Fostered effective collaboration with team members and stakeholders, contributing to the success of various projects',
+      'Assisted colleagues in diverse projects, enhancing overall team productivity',
+      'Utilized SourceTree for efficient git version control and Bitbucket for maintaining a well-organized code repository',
+      'Conducted basic unit testing and participated in code reviews for multiple games, ensuring quality and reliability',
+      'Employed Ajax to facilitate seamless communication with the Back-End, enabling the transfer of data between the Front-End and Back-End components',
+      'Successfully integrated Back-End functionalities with the Front-End, ensuring a cohesive and functional gaming experience',
     ],
   },
   {
@@ -26,17 +29,19 @@ const work = [
     location: 'Amazon Development Centre, Bengaluru, KA, IN',
     duration: 'Nov 2020 - Feb 2022',
     description: [
-      'Worked on Multiple SOPs to make Amazon a better place for e-commerce world for both Buyers and Sellers',
-      'Created a powerpoint presentation for easy understanding of an SOP for the Team',
-      'Validate the Listing Genuinity by using In-House tools',
+      'Contributed as a Risk Investigator, specializing in risk assessment across diverse marketplaces, including the US and CA',
+      'Managed various queues, such as Variations, LRM, Variation Appeals, Mutation Abuse, and Mutation Abuse Appeals, ensuring comprehensive coverage',
+      'Played a pivotal role in assisting sellers to enhance sales and garner more orders by optimizing their performance',
+      'Developed and crafted new Standard Operating Procedure (SOP) guidelines in the form of presentation materials, facilitating effective training sessions',
+      'Conducted thorough investigations into suspicious activities to safeguard Amazon customers from potential deception and fraudulent practices',
     ],
   },
   {
     title: 'Tutor',
     location: 'Bengaluru, KA, IN',
     description: [
-      'Tutoring students from class VI to XII for Mathematics and Science',
-      'Tutoring students for all the types of Syllabus - ICSE, CBSE and State',
+      'Providing comprehensive tutoring services for Mathematics and Science to students ranging from class VI to XII',
+      'Offering expertise across diverse syllabi, including ICSE, CBSE, and State boards, to ensure tailored and effective support for students in their academic journey',
     ],
   },
 ];
