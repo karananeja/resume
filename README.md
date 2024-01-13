@@ -31,7 +31,7 @@ If you have suggestions for improvements or find any errors in my resume, please
 
 ## License
 
-This project is licensed under the [MIT License] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License] - see the [LICENSE](/LICENSE) file for details.
 
 ---
 
