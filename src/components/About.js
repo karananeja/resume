@@ -37,7 +37,7 @@ const About = () => {
   return (
     <div id='about' className='about'>
       <p className='about__aboutLine'>
-        About Me <span className='about__span'></span>
+        About Me <span className='about__span' />
       </p>
       <div className='about__job'>
         {work.map(({ title, location, duration, description }, index) => (
@@ -73,7 +73,7 @@ const About = () => {
         </div>
       ) : null}
       <p className='about__aboutLine'>
-        My Skills <span className='about__span'></span>
+        My Skills <span className='about__span' />
       </p>
       <div className='about__icons'>
         <FaHtml5 className='about__icon' />
